@@ -1,4 +1,8 @@
 #!groovy
 pipeline{
-    sh 'echo \'Hello!!!\''
+    stages {
+        stage ('Welcome Message') {
+            sh 'echo \'Hello!!!\''            
+        }
+    }
 }
