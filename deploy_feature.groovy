@@ -4,7 +4,7 @@ pipeline{
     stages {
         stage ('Welcome Message') {
             steps {
-                sh 'echo \'Hello!!!\''    
+                echo 'Hello Feature!'
             }
         }
     }
